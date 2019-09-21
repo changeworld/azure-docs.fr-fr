@@ -42,9 +42,9 @@ Vous pouvez utiliser les paramètres suivants :
 
 | Nom | Options | Description | Default |
 | --- | --- | --- | --- |
-| sensitivityLevel |Chaîne : « low », « medium », « high » |Définit le niveau de sensibilité auquel les mouvements sont signalés. Réglez cette option pour ajuster le nombre de faux positifs. |« medium » |
+| sensitivityLevel |String : « low », « medium », « high » |Définit le niveau de sensibilité auquel les mouvements sont signalés. Réglez cette option pour ajuster le nombre de faux positifs. |« medium » |
 | frameSamplingValue |Entier positif |Définit la fréquence d’exécution de l’algorithme. 1 = chaque trame, 2 = toutes les 2 trames, etc. |1 |
-| detectLightChange |Booléen : « True », « False » |Définit si des changements d’éclairage sont signalés dans les résultats. |« False » |
+| detectLightChange |Boolean : « True », « False » |Définit si des changements d’éclairage sont signalés dans les résultats. |« False » |
 | mergeTimeThreshold |Xs-time : hh:mm:ss<br/>Exemple : 00:00:03 |Spécifie la fenêtre de temps entre les événements de mouvement lorsque 2 événements sont combinés et signalés comme 1. |00:00:00 |
 | detectionZones |Tableau de zones de détection :<br/>- Zone de détection est un tableau de 3 points ou plus<br/>- Point est une coordonnée x et y de 0 à 1. |Décrit la liste des zones de détection polygonale à utiliser.<br/>Les résultats sont signalés avec les zones en tant qu’ID, la première étant « id » :0 |Zone unique, couvrant la trame entière. |
 
